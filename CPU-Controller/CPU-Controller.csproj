@@ -215,7 +215,7 @@
     <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Styles\UIDict.xaml">
+    <Page Include="Styles\UserInterface.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
