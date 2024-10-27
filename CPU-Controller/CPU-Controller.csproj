@@ -175,6 +175,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\GetALLInfo.cs" />
+    <Compile Include="Classes\GetCPUInfo.cs" />
+    <Compile Include="Classes\GetGPUInfo.cs" />
+    <Compile Include="Classes\GetRAMInfo.cs" />
+    <Compile Include="Classes\GetRegistryInfo.cs" />
+    <Compile Include="Classes\GetROMInfo.cs" />
+    <Compile Include="Pages\CPUPage.xaml.cs">
+      <DependentUpon>CPUPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -212,9 +221,12 @@
   <ItemGroup>
     <Folder Include="Assets\AppIco\" />
     <Folder Include="Assets\Fonts\" />
-    <Folder Include="Pages\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Pages\CPUPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Styles\UserInterface.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
